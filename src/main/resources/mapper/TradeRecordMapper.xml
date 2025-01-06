@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.start.app.mapper.TradeRecordMapper">
+    <sql id="Base_Column_List">
+        id, trade_time, trade_type, counterparty, product, direction, amount,
+        payment_method, status, trade_no, merchant_order_no, remarks, create_time
+    </sql>
+
+    <sql id="Query_Where_Clause">
+        <where>
+            <if test="tradeType != null and tradeType != ''">
+                AND trade_type = #{tradeType}
+            </if>
+            <if test="counterparty != null and counterparty != ''">
+                AND counterparty = #{counterparty}
+            </if>
+            <if test="direction != null and direction != ''">
+                AND direction = #{direction}
+            </if>
+            <if test="status != null and status != ''">
+                AND status = #{status}
+            </if>
+            <if test="startTime != null">
+                AND trade_time >= #{startTime}
+            </if>
+            <if test="endTime != null">
+                AND trade_time &lt;= #{endTime}
+            </if>
+            <if test="minAmount != null">
+                AND amount >= #{minAmount}
+            </if>
+            <if test="maxAmount != null">
+                AND amount &lt;= #{maxAmount}
+            </if>
+            <if test="paymentMethod != null and paymentMethod != ''">
+                AND payment_method = #{paymentMethod}
+            </if>
+            <if test="tradeNo != null and tradeNo != ''">
+                AND trade_no = #{tradeNo}
+            </if>
+            <if test="merchantOrderNo != null and merchantOrderNo != ''">
+                AND merchant_order_no = #{merchantOrderNo}
+            </if>
+        </where>
+    </sql>
+
+    <insert id="insert" parameterType="org.start.app.entity.TradeRecord" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO trade_record (
+            trade_time, trade_type, counterparty, product,
+            direction, amount, payment_method, status,
+            trade_no, merchant_order_no, remarks, create_time
+        ) VALUES (
+            #{tradeTime}, #{tradeType}, #{counterparty}, #{product},
+            #{direction}, #{amount}, #{paymentMethod}, #{status},
+            #{tradeNo}, #{merchantOrderNo}, #{remarks}, NOW()
+        )
+    </insert>
+
+    <insert id="batchInsert" parameterType="java.util.List">
+        INSERT INTO trade_record (
+            trade_time, trade_type, counterparty, product,
+            direction, amount, payment_method, status,
+            trade_no, merchant_order_no, remarks, create_time
+        ) VALUES 
+        <foreach collection="list" item="item" separator=",">
+            (
+                #{item.tradeTime}, #{item.tradeType}, #{item.counterparty}, #{item.product},
+                #{item.direction}, #{item.amount}, #{item.paymentMethod}, #{item.status},
+                #{item.tradeNo}, #{item.merchantOrderNo}, #{item.remarks}, NOW()
+            )
+        </foreach>
+    </insert>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM trade_record WHERE id = #{id}
+    </delete>
+
+    <delete id="deleteByIds">
+        DELETE FROM trade_record WHERE id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <update id="update" parameterType="org.start.app.entity.TradeRecord">
+        UPDATE trade_record
+        <set>
+            <if test="tradeTime != null">trade_time = #{tradeTime},</if>
+            <if test="tradeType != null">trade_type = #{tradeType},</if>
+            <if test="counterparty != null">counterparty = #{counterparty},</if>
+            <if test="product != null">product = #{product},</if>
+            <if test="direction != null">direction = #{direction},</if>
+            <if test="amount != null">amount = #{amount},</if>
+            <if test="paymentMethod != null">payment_method = #{paymentMethod},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="tradeNo != null">trade_no = #{tradeNo},</if>
+            <if test="merchantOrderNo != null">merchant_order_no = #{merchantOrderNo},</if>
+            <if test="remarks != null">remarks = #{remarks}</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <select id="getById" parameterType="java.lang.Long" resultType="org.start.app.entity.TradeRecord">
+        SELECT <include refid="Base_Column_List" />
+        FROM trade_record
+        WHERE id = #{id}
+    </select>
+
+    <select id="getByTradeNo" parameterType="java.lang.String" resultType="org.start.app.entity.TradeRecord">
+        SELECT <include refid="Base_Column_List" />
+        FROM trade_record
+        WHERE trade_no = #{tradeNo}
+    </select>
+
+    <select id="countByQuery" parameterType="org.start.app.model.TradeRecordQuery" resultType="java.lang.Long">
+        SELECT COUNT(*)
+        FROM trade_record
+        <include refid="Query_Where_Clause" />
+    </select>
+
+    <select id="selectByQuery" parameterType="org.start.app.model.TradeRecordQuery" resultType="org.start.app.entity.TradeRecord">
+        SELECT <include refid="Base_Column_List" />
+        FROM trade_record
+        <include refid="Query_Where_Clause" />
+        ORDER BY trade_time DESC
+        LIMIT #{pageSize} OFFSET #{pageNum * pageSize - pageSize}
+    </select>
+</mapper> 
