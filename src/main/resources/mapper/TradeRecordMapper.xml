@@ -123,6 +123,6 @@
         FROM trade_record
         <include refid="Query_Where_Clause" />
         ORDER BY trade_time DESC
-        LIMIT #{pageSize} OFFSET #{pageNum * pageSize - pageSize}
+        LIMIT #{pageSize} OFFSET #{offset}
     </select>
 </mapper> 
