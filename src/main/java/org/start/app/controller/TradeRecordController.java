@@ -16,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.start.app.service.TradeRecordService;
 import org.start.app.entity.TradeRecord;
 import org.start.app.model.TradeRecordQuery;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.io.File;
 import java.util.List;
@@ -24,6 +25,7 @@ import java.util.Map;
 @Tag(name = "交易记录", description = "交易记录相关接口")
 @RestController
 @RequestMapping("/trade")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class TradeRecordController {
 
     private final TradeRecordService tradeRecordService;

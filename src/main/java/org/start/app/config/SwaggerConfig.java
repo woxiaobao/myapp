@@ -21,7 +21,7 @@ public class SwaggerConfig {
         localServer.setDescription("本地环境");
 
         Server testServer = new Server();
-        testServer.setUrl("http://test-api.example.com");
+        testServer.setUrl("http://124.221.19.177:8080/");
         testServer.setDescription("测试环境");
 
         List<Server> servers = new ArrayList<>();

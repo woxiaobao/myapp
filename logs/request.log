@@ -1,193 +1,59 @@
-2025-01-06 21:34:17.731 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /demo/hello
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@7951d728
-Request body: 
-Response    : Hello, 我是111111111111111!
-Duration    : 23ms
-===============================================
-2025-01-06 21:54:42.758 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:10:10.674 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/index.html
 Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, cache-control: max-age=0, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: same-origin, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: none, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
+Parameters  : org.apache.catalina.util.ParameterMap@241c60fd
 Request body: 
 Response    : 
-Duration    : 10ms
+Duration    : 12ms
 ===============================================
-2025-01-06 21:54:42.774 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:10:10.697 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/swagger-ui.css
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 21:54:42.776 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@3bca4f15
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 21:54:42.777 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-bundle.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@23ad4fd4
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 21:54:42.777 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-standalone-preset.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@1d153538
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 21:54:42.804 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-initializer.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
-Request body: 
-Response    : window.onload = function() {
-  //<editor-fold desc="Changeable Configuration Block">
-
-  // the following lines will be replaced by docker/configurator, when it runs in a docker-container
-  window.ui = SwaggerUIBundle({
-    url: "",
-    dom_id: '#swagger-ui',
-    deepLinking: true,
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
-    ],
-    plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl
-    ],
-    layout: "StandaloneLayout" ,
-
-  "configUrl" : "/v3/api-docs/swagger-config",
-  "validatorUrl" : ""
-
-  });
-
-  //</editor-fold>
-};
-
-Duration    : 28ms
-===============================================
-2025-01-06 21:54:43.120 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/favicon-32x32.png
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: image, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@1d153538
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 21:54:43.152 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /v3/api-docs/swagger-config
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
-Request body: 
-Response    : {"configUrl":"/v3/api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8080/swagger-ui/oauth2-redirect.html","urls":[{"url":"/v3/api-docs","name":"API docs"}],"validatorUrl":""}
-Duration    : 36ms
-===============================================
-2025-01-06 21:54:43.286 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /v3/api-docs
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: application/json,*/*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
-Request body: 
-Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://test-api.example.com","description":"测试环境"}],"tags":[{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{}}
-Duration    : 123ms
-===============================================
-2025-01-06 21:54:50.992 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/generate-test
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@7681fb12
-Request body: 
-Response    : 测试Excel文件已生成：./test_data/trade_records_1736171690159.xlsx
-Duration    : 833ms
-===============================================
-2025-01-06 21:58:07.921 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.html
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, cache-control: max-age=0, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: same-origin, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@18bc9d69
-Request body: 
-Response    : 
-Duration    : 9ms
-===============================================
-2025-01-06 21:58:07.938 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@18bc9d69
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 21:58:07.938 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-bundle.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@4a161eab
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 21:58:07.939 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-standalone-preset.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@6405f440
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 21:58:07.940 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@6bf65faf
+Parameters  : org.apache.catalina.util.ParameterMap@241c60fd
 Request body: 
 Response    : 
 Duration    : 3ms
 ===============================================
-2025-01-06 21:58:07.961 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:10:10.697 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
+REQUEST LOG ====================================
+URI         : /swagger-ui/index.css
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
+Parameters  : org.apache.catalina.util.ParameterMap@7d6f8b04
+Request body: 
+Response    : 
+Duration    : 2ms
+===============================================
+2025-01-10 19:10:10.698 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
+REQUEST LOG ====================================
+URI         : /swagger-ui/swagger-ui-standalone-preset.js
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
+Parameters  : org.apache.catalina.util.ParameterMap@38d41d69
+Request body: 
+Response    : 
+Duration    : 2ms
+===============================================
+2025-01-10 19:10:10.698 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
+REQUEST LOG ====================================
+URI         : /swagger-ui/swagger-ui-bundle.js
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
+Parameters  : org.apache.catalina.util.ParameterMap@3439c0db
+Request body: 
+Response    : 
+Duration    : 2ms
+===============================================
+2025-01-10 19:10:10.727 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/swagger-initializer.js
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
@@ -214,124 +80,74 @@ Response    : window.onload = function() {
   //</editor-fold>
 };
 
-Duration    : 24ms
+Duration    : 31ms
 ===============================================
-2025-01-06 21:58:08.287 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/favicon-32x32.png
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: image, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@6bf65faf
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 21:58:08.320 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:10:11.078 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /v3/api-docs/swagger-config
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : {"configUrl":"/v3/api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8080/swagger-ui/oauth2-redirect.html","urls":[{"url":"/v3/api-docs","name":"API docs"}],"validatorUrl":""}
 Duration    : 38ms
 ===============================================
-2025-01-06 21:58:08.444 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:10:11.427 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /v3/api-docs
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: application/json,*/*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
-Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://test-api.example.com","description":"测试环境"}],"tags":[{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{}}
-Duration    : 108ms
+Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://124.221.19.177:8080/","description":"测试环境"}],"tags":[{"name":"Redis示例","description":"Redis各种数据类型使用示例"},{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/purchase":{"post":{"tags":["Redis示例"],"summary":"商品购买","description":"Sorted Set示例1：记录商品销量","operationId":"purchaseProduct","parameters":[{"name":"productId","in":"query","required":true,"schema":{"type":"string"}},{"name":"quantity","in":"query","required":true,"schema":{"type":"integer","format":"int32"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"boolean"}}}}}}},"/redis/string/verifyCode":{"post":{"tags":["Redis示例"],"summary":"设置验证码","description":"String示例1：设置60秒过期的验证码","operationId":"setVerifyCode","parameters":[{"name":"phone","in":"query","required":true,"schema":{"type":"string"}},{"name":"code","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/string/like":{"post":{"tags":["Redis示例"],"summary":"文章点赞","description":"String示例2：文章点赞计数","operationId":"likeArticle","parameters":[{"name":"articleId","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/set/follow":{"post":{"tags":["Redis示例"],"summary":"关注用户","description":"Set示例1：用户关注功能","operationId":"followUser","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"followIds","in":"query","required":true,"schema":{"type":"array","items":{"type":"string"}}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/list/opLog":{"post":{"tags":["Redis示例"],"summary":"添加操作日志","description":"List示例1：记录用户操作日志","operationId":"addOperationLog","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"operation","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/hash/userInfo":{"post":{"tags":["Redis示例"],"summary":"更新用户信息","description":"Hash示例1：存储用户信息","operationId":"updateUserInfo","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"field","in":"query","required":true,"schema":{"type":"string"}},{"name":"value","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/hotProducts":{"get":{"tags":["Redis示例"],"summary":"热销商品","description":"Sorted Set示例2：获取销量最高的5个商品","operationId":"getHotProducts","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/set/follow/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取关注列表","description":"Set示例2：获取用户的所有关注","operationId":"getFollowList","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/list/opLog/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取最近操作","description":"List示例2：获取用户最近的10条操作记录","operationId":"getRecentOperations","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"type":"object"}}}}}}}},"/redis/hash/userInfo/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取用户信息","description":"Hash示例2：获取用户完整信息","operationId":"getUserInfo","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"},"offset":{"type":"integer","format":"int32"}}}}}}
+Duration    : 333ms
 ===============================================
-2025-01-06 21:58:13.517 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:12:02.464 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
-URI         : /trade/generate-test
+URI         : /v3/api-docs
 Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: same-origin, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
-Response    : 测试Excel文件已生成：trade_records_1736171892752.xlsx
-Duration    : 765ms
+Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://124.221.19.177:8080/","description":"测试环境"}],"tags":[{"name":"Redis示例","description":"Redis各种数据类型使用示例"},{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/purchase":{"post":{"tags":["Redis示例"],"summary":"商品购买","description":"Sorted Set示例1：记录商品销量","operationId":"purchaseProduct","parameters":[{"name":"productId","in":"query","required":true,"schema":{"type":"string"}},{"name":"quantity","in":"query","required":true,"schema":{"type":"integer","format":"int32"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"boolean"}}}}}}},"/redis/string/verifyCode":{"post":{"tags":["Redis示例"],"summary":"设置验证码","description":"String示例1：设置60秒过期的验证码","operationId":"setVerifyCode","parameters":[{"name":"phone","in":"query","required":true,"schema":{"type":"string"}},{"name":"code","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/string/like":{"post":{"tags":["Redis示例"],"summary":"文章点赞","description":"String示例2：文章点赞计数","operationId":"likeArticle","parameters":[{"name":"articleId","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/set/follow":{"post":{"tags":["Redis示例"],"summary":"关注用户","description":"Set示例1：用户关注功能","operationId":"followUser","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"followIds","in":"query","required":true,"schema":{"type":"array","items":{"type":"string"}}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/list/opLog":{"post":{"tags":["Redis示例"],"summary":"添加操作日志","description":"List示例1：记录用户操作日志","operationId":"addOperationLog","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"operation","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/hash/userInfo":{"post":{"tags":["Redis示例"],"summary":"更新用户信息","description":"Hash示例1：存储用户信息","operationId":"updateUserInfo","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"field","in":"query","required":true,"schema":{"type":"string"}},{"name":"value","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/hotProducts":{"get":{"tags":["Redis示例"],"summary":"热销商品","description":"Sorted Set示例2：获取销量最高的5个商品","operationId":"getHotProducts","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/set/follow/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取关注列表","description":"Set示例2：获取用户的所有关注","operationId":"getFollowList","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/list/opLog/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取最近操作","description":"List示例2：获取用户最近的10条操作记录","operationId":"getRecentOperations","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"type":"object"}}}}}}}},"/redis/hash/userInfo/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取用户信息","description":"Hash示例2：获取用户完整信息","operationId":"getUserInfo","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"},"offset":{"type":"integer","format":"int32"}}}}}}
+Duration    : 3ms
 ===============================================
-2025-01-06 21:59:30.249 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:12:02.777 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
-URI         : /trade/import
-Method      : POST
-Headers     : host: localhost:8080, connection: keep-alive, content-length: 22, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", content-type: application/json, sec-ch-ua-mobile: ?0, origin: http://localhost:8080, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+URI         : /favicon.ico
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: image, referer: http://localhost:8080/v3/api-docs, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : 
-Duration    : 6ms
+Duration    : 4ms
 ===============================================
-2025-01-06 22:01:03.439 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 19:12:15.945 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
-URI         : /trade/import
-Method      : POST
-Headers     : user-agent: PostmanRuntime/7.43.0, accept: */*, postman-token: 4b06cb61-930d-4526-aaca-a191494cdf45, host: localhost:8080, accept-encoding: gzip, deflate, br, connection: keep-alive, content-type: multipart/form-data; boundary=--------------------------559960603536070441299725, content-length: 748041
-Parameters  : org.apache.catalina.util.ParameterMap@2b6a873b
+URI         : /v3/api-docs
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", sec-ch-ua-mobile: ?0, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/11.23.3 Electron/28.3.1 Safari/537.36, sec-ch-ua-platform: "Windows", accept: */*, sec-fetch-site: cross-site, sec-fetch-mode: cors, sec-fetch-dest: empty, accept-encoding: gzip, deflate, br, accept-language: zh-CN
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
-Response    : 导入成功
-Duration    : 2198ms
+Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://124.221.19.177:8080/","description":"测试环境"}],"tags":[{"name":"Redis示例","description":"Redis各种数据类型使用示例"},{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/purchase":{"post":{"tags":["Redis示例"],"summary":"商品购买","description":"Sorted Set示例1：记录商品销量","operationId":"purchaseProduct","parameters":[{"name":"productId","in":"query","required":true,"schema":{"type":"string"}},{"name":"quantity","in":"query","required":true,"schema":{"type":"integer","format":"int32"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"boolean"}}}}}}},"/redis/string/verifyCode":{"post":{"tags":["Redis示例"],"summary":"设置验证码","description":"String示例1：设置60秒过期的验证码","operationId":"setVerifyCode","parameters":[{"name":"phone","in":"query","required":true,"schema":{"type":"string"}},{"name":"code","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/string/like":{"post":{"tags":["Redis示例"],"summary":"文章点赞","description":"String示例2：文章点赞计数","operationId":"likeArticle","parameters":[{"name":"articleId","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/set/follow":{"post":{"tags":["Redis示例"],"summary":"关注用户","description":"Set示例1：用户关注功能","operationId":"followUser","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"followIds","in":"query","required":true,"schema":{"type":"array","items":{"type":"string"}}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/list/opLog":{"post":{"tags":["Redis示例"],"summary":"添加操作日志","description":"List示例1：记录用户操作日志","operationId":"addOperationLog","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"operation","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/hash/userInfo":{"post":{"tags":["Redis示例"],"summary":"更新用户信息","description":"Hash示例1：存储用户信息","operationId":"updateUserInfo","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"field","in":"query","required":true,"schema":{"type":"string"}},{"name":"value","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/hotProducts":{"get":{"tags":["Redis示例"],"summary":"热销商品","description":"Sorted Set示例2：获取销量最高的5个商品","operationId":"getHotProducts","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/set/follow/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取关注列表","description":"Set示例2：获取用户的所有关注","operationId":"getFollowList","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/list/opLog/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取最近操作","description":"List示例2：获取用户最近的10条操作记录","operationId":"getRecentOperations","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"type":"object"}}}}}}}},"/redis/hash/userInfo/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取用户信息","description":"Hash示例2：获取用户完整信息","operationId":"getUserInfo","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"},"offset":{"type":"integer","format":"int32"}}}}}}
+Duration    : 2ms
 ===============================================
-2025-01-06 22:11:27.871 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 20:04:48.072 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/index.html
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, cache-control: max-age=0, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: same-origin, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
-Request body: 
-Response    : 
-Duration    : 10ms
-===============================================
-2025-01-06 22:11:27.887 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : 
 Duration    : 2ms
 ===============================================
-2025-01-06 22:11:27.889 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@7c4effca
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 22:11:27.897 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-bundle.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@7c4effca
-Request body: 
-Response    : 
-Duration    : 3ms
-===============================================
-2025-01-06 22:11:27.898 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-standalone-preset.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@77632dd5
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 22:11:27.921 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 20:04:48.098 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/swagger-initializer.js
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
@@ -358,421 +174,35 @@ Response    : window.onload = function() {
   //</editor-fold>
 };
 
-Duration    : 26ms
+Duration    : 4ms
 ===============================================
-2025-01-06 22:11:28.167 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 20:04:48.377 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
+REQUEST LOG ====================================
+URI         : /v3/api-docs/swagger-config
+Method      : GET
+Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
+Request body: 
+Response    : {"configUrl":"/v3/api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8080/swagger-ui/oauth2-redirect.html","urls":[{"url":"/v3/api-docs","name":"API docs"}],"validatorUrl":""}
+Duration    : 1ms
+===============================================
+2025-01-10 20:04:48.383 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /swagger-ui/favicon-32x32.png
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: image, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@77632dd5
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
 Response    : 
 Duration    : 2ms
 ===============================================
-2025-01-06 22:11:28.188 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /v3/api-docs/swagger-config
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
-Request body: 
-Response    : {"configUrl":"/v3/api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8080/swagger-ui/oauth2-redirect.html","urls":[{"url":"/v3/api-docs","name":"API docs"}],"validatorUrl":""}
-Duration    : 40ms
-===============================================
-2025-01-06 22:11:28.467 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
+2025-01-10 20:04:48.396 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
 REQUEST LOG ====================================
 URI         : /v3/api-docs
 Method      : GET
 Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: application/json,*/*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
+Parameters  : org.apache.catalina.util.ParameterMap@373be8d
 Request body: 
-Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://test-api.example.com","description":"测试环境"}],"tags":[{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"}}}}}}
-Duration    : 171ms
-===============================================
-2025-01-06 22:11:52.141 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : POST
-Headers     : host: localhost:8080, connection: keep-alive, content-length: 338, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", content-type: application/json, sec-ch-ua-mobile: ?0, origin: http://localhost:8080, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
-Request body: {
-  "tradeType": "string",
-  "counterparty": "string",
-  "direction": "string",
-  "status": "string",
-  "startTime": "2025-01-06T14:11:50.807Z",
-  "endTime": "2025-01-06T14:11:50.807Z",
-  "minAmount": 0,
-  "maxAmount": 0,
-  "paymentMethod": "string",
-  "tradeNo": "string",
-  "merchantOrderNo": "string",
-  "pageNum": 0,
-  "pageSize": 0
-}
-Response    : {"total":0,"records":[]}
-Duration    : 112ms
-===============================================
-2025-01-06 22:16:15.190 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.html
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-ch-ua-platform: "Windows", upgrade-insecure-requests: 1, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7, sec-fetch-site: cross-site, sec-fetch-mode: navigate, sec-fetch-user: ?1, sec-fetch-dest: document, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 22:16:15.213 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@b21abf5
-Request body: 
-Response    : 
+Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://124.221.19.177:8080/","description":"测试环境"}],"tags":[{"name":"Redis示例","description":"Redis各种数据类型使用示例"},{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/purchase":{"post":{"tags":["Redis示例"],"summary":"商品购买","description":"Sorted Set示例1：记录商品销量","operationId":"purchaseProduct","parameters":[{"name":"productId","in":"query","required":true,"schema":{"type":"string"}},{"name":"quantity","in":"query","required":true,"schema":{"type":"integer","format":"int32"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"boolean"}}}}}}},"/redis/string/verifyCode":{"post":{"tags":["Redis示例"],"summary":"设置验证码","description":"String示例1：设置60秒过期的验证码","operationId":"setVerifyCode","parameters":[{"name":"phone","in":"query","required":true,"schema":{"type":"string"}},{"name":"code","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/string/like":{"post":{"tags":["Redis示例"],"summary":"文章点赞","description":"String示例2：文章点赞计数","operationId":"likeArticle","parameters":[{"name":"articleId","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/set/follow":{"post":{"tags":["Redis示例"],"summary":"关注用户","description":"Set示例1：用户关注功能","operationId":"followUser","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"followIds","in":"query","required":true,"schema":{"type":"array","items":{"type":"string"}}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/list/opLog":{"post":{"tags":["Redis示例"],"summary":"添加操作日志","description":"List示例1：记录用户操作日志","operationId":"addOperationLog","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"operation","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"integer","format":"int64"}}}}}}},"/redis/hash/userInfo":{"post":{"tags":["Redis示例"],"summary":"更新用户信息","description":"Hash示例1：存储用户信息","operationId":"updateUserInfo","parameters":[{"name":"userId","in":"query","required":true,"schema":{"type":"string"}},{"name":"field","in":"query","required":true,"schema":{"type":"string"}},{"name":"value","in":"query","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/redis/zset/hotProducts":{"get":{"tags":["Redis示例"],"summary":"热销商品","description":"Sorted Set示例2：获取销量最高的5个商品","operationId":"getHotProducts","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/set/follow/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取关注列表","description":"Set示例2：获取用户的所有关注","operationId":"getFollowList","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"uniqueItems":true,"type":"array","items":{"type":"object"}}}}}}}},"/redis/list/opLog/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取最近操作","description":"List示例2：获取用户最近的10条操作记录","operationId":"getRecentOperations","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"type":"object"}}}}}}}},"/redis/hash/userInfo/{userId}":{"get":{"tags":["Redis示例"],"summary":"获取用户信息","description":"Hash示例2：获取用户完整信息","operationId":"getUserInfo","parameters":[{"name":"userId","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"},"offset":{"type":"integer","format":"int32"}}}}}}
 Duration    : 2ms
-===============================================
-2025-01-06 22:16:15.214 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-bundle.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@7c4effca
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 22:16:15.214 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/index.css
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: text/css,*/*;q=0.1, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: style, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@77632dd5
-Request body: 
-Response    : 
-Duration    : 2ms
-===============================================
-2025-01-06 22:16:15.214 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-ui-standalone-preset.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8, if-modified-since: Mon, 06 Jan 2025 13:27:15 GMT
-Parameters  : org.apache.catalina.util.ParameterMap@744d93a6
-Request body: 
-Response    : 
-Duration    : 1ms
-===============================================
-2025-01-06 22:16:15.220 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /swagger-ui/swagger-initializer.js
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: no-cors, sec-fetch-dest: script, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : window.onload = function() {
-  //<editor-fold desc="Changeable Configuration Block">
-
-  // the following lines will be replaced by docker/configurator, when it runs in a docker-container
-  window.ui = SwaggerUIBundle({
-    url: "",
-    dom_id: '#swagger-ui',
-    deepLinking: true,
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
-    ],
-    plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl
-    ],
-    layout: "StandaloneLayout" ,
-
-  "configUrl" : "/v3/api-docs/swagger-config",
-  "validatorUrl" : ""
-
-  });
-
-  //</editor-fold>
-};
-
-Duration    : 7ms
-===============================================
-2025-01-06 22:16:15.542 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /v3/api-docs/swagger-config
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, accept: */*, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : {"configUrl":"/v3/api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8080/swagger-ui/oauth2-redirect.html","urls":[{"url":"/v3/api-docs","name":"API docs"}],"validatorUrl":""}
-Duration    : 1ms
-===============================================
-2025-01-06 22:16:15.569 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /v3/api-docs
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: application/json,*/*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : {"openapi":"3.0.1","info":{"title":"项目API文档","description":"API接口文档","contact":{"name":"Your Name","email":"your.email@example.com"},"license":{"name":"Apache 2.0"},"version":"v1.0.0"},"servers":[{"url":"http://localhost:8080","description":"本地环境"},{"url":"http://test-api.example.com","description":"测试环境"}],"tags":[{"name":"示例接口","description":"示例接口描述"},{"name":"交易记录","description":"交易记录相关接口"}],"paths":{"/trade":{"put":{"tags":["交易记录"],"summary":"修改记录","description":"修改交易记录","operationId":"update","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}},"post":{"tags":["交易记录"],"summary":"新增记录","description":"新增交易记录","operationId":"add","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/page":{"post":{"tags":["交易记录"],"summary":"分页查询","description":"条件分页查询交易记录","operationId":"queryPage","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/TradeRecordQuery"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","additionalProperties":{"type":"object"}}}}}}}},"/trade/import":{"post":{"tags":["交易记录"],"summary":"导入Excel","description":"导入交易记录Excel文件","operationId":"importExcel","requestBody":{"content":{"application/json":{"schema":{"required":["file"],"type":"object","properties":{"file":{"type":"string","format":"binary"}}}}}},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/{id}":{"get":{"tags":["交易记录"],"summary":"查询单条记录","description":"根据ID查询交易记录","operationId":"getById","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"$ref":"#/components/schemas/TradeRecord"}}}}}},"delete":{"tags":["交易记录"],"summary":"删除记录","description":"根据ID删除交易记录","operationId":"delete","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/generate-test":{"get":{"tags":["交易记录"],"summary":"生成测试Excel","description":"生成包含10000条测试数据的Excel文件","operationId":"generateTestExcel","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/demo/hello":{"get":{"tags":["示例接口"],"summary":"打招呼","description":"返回问候语","operationId":"hello","parameters":[{"name":"name","in":"query","description":"姓名","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/trade/batch":{"delete":{"tags":["交易记录"],"summary":"批量删除","description":"批量删除交易记录","operationId":"batchDelete","requestBody":{"content":{"application/json":{"schema":{"type":"array","items":{"type":"integer","format":"int64"}}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}}},"components":{"schemas":{"TradeRecord":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"tradeTime":{"type":"string","format":"date-time"},"tradeType":{"type":"string"},"counterparty":{"type":"string"},"product":{"type":"string"},"direction":{"type":"string"},"amount":{"type":"number"},"paymentMethod":{"type":"string"},"status":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"remarks":{"type":"string"},"createTime":{"type":"string","format":"date-time"}}},"TradeRecordQuery":{"type":"object","properties":{"tradeType":{"type":"string"},"counterparty":{"type":"string"},"direction":{"type":"string"},"status":{"type":"string"},"startTime":{"type":"string","format":"date-time"},"endTime":{"type":"string","format":"date-time"},"minAmount":{"type":"number"},"maxAmount":{"type":"number"},"paymentMethod":{"type":"string"},"tradeNo":{"type":"string"},"merchantOrderNo":{"type":"string"},"pageNum":{"type":"integer","format":"int32"},"pageSize":{"type":"integer","format":"int32"}}}}}}
-Duration    : 3ms
-===============================================
-2025-01-06 22:20:25.733 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 3ms
-===============================================
-2025-01-06 22:20:47.860 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:21:42.050 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:22:21.536 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:22:22.010 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:22:22.182 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:44.325 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:45.594 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:23:46.088 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:23:46.262 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:46.430 [http-nio-8080-exec-9] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:46.567 [http-nio-8080-exec-7] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:46.759 [http-nio-8080-exec-10] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:46.914 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:23:47.075 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:23:47.226 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:25:45.617 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 0ms
-===============================================
-2025-01-06 22:25:53.685 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:25:54.709 [http-nio-8080-exec-5] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: POST, access-control-request-headers: content-type, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@3fc66de1
-Request body: 
-Response    : Invalid CORS request
-Duration    : 1ms
-===============================================
-2025-01-06 22:34:57.184 [http-nio-8080-exec-1] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/3
-Method      : OPTIONS
-Headers     : host: localhost:8080, connection: keep-alive, accept: */*, access-control-request-method: DELETE, origin: http://124.221.19.177:8080, user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, sec-fetch-mode: cors, sec-fetch-site: cross-site, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@1ae609af
-Request body: 
-Response    : Invalid CORS request
-Duration    : 11ms
-===============================================
-2025-01-06 22:35:29.788 [http-nio-8080-exec-2] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/5
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, origin: http://124.221.19.177:8080, sec-fetch-site: cross-site, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@1ae609af
-Request body: 
-Response    : {"id":5,"tradeTime":"2024-01-06T14:18:13.000+00:00","tradeType":"退款","counterparty":"张三","product":"电脑","direction":"收","amount":2285.28,"paymentMethod":"银行卡","status":"处理中","tradeNo":"T17361718927575645","merchantOrderNo":"M391845648340097","remarks":"测试数据-5","createTime":"2025-01-06T06:00:58.000+00:00"}
-Duration    : 119ms
-===============================================
-2025-01-06 22:35:54.749 [http-nio-8080-exec-3] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/5
-Method      : GET
-Headers     : host: localhost:8080, connection: keep-alive, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", sec-ch-ua-mobile: ?0, origin: http://124.221.19.177:8080, sec-fetch-site: cross-site, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://124.221.19.177:8080/, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@1ae609af
-Request body: 
-Response    : {"id":5,"tradeTime":"2024-01-06T14:18:13.000+00:00","tradeType":"退款","counterparty":"张三","product":"电脑","direction":"收","amount":2285.28,"paymentMethod":"银行卡","status":"处理中","tradeNo":"T17361718927575645","merchantOrderNo":"M391845648340097","remarks":"测试数据-5","createTime":"2025-01-06T06:00:58.000+00:00"}
-Duration    : 19ms
-===============================================
-2025-01-06 22:36:10.723 [http-nio-8080-exec-6] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/5
-Method      : GET
-Headers     : user-agent: PostmanRuntime/7.43.0, accept: */*, postman-token: 31536ecd-bb58-49a8-8b45-cf40d260b716, host: localhost:8080, accept-encoding: gzip, deflate, br, connection: keep-alive
-Parameters  : org.apache.catalina.util.ParameterMap@1ae609af
-Request body: 
-Response    : {"id":5,"tradeTime":"2024-01-06T14:18:13.000+00:00","tradeType":"退款","counterparty":"张三","product":"电脑","direction":"收","amount":2285.28,"paymentMethod":"银行卡","status":"处理中","tradeNo":"T17361718927575645","merchantOrderNo":"M391845648340097","remarks":"测试数据-5","createTime":"2025-01-06T06:00:58.000+00:00"}
-Duration    : 19ms
-===============================================
-2025-01-06 22:37:35.563 [http-nio-8080-exec-8] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : POST
-Headers     : host: localhost:8080, connection: keep-alive, content-length: 39, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", content-type: application/json, sec-ch-ua-mobile: ?0, origin: http://localhost:8080, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@1ae609af
-Request body: {
-  
-  "pageNum": 1,
-  "pageSize": 10
-}
-Response    : 
-Duration    : 76ms
-===============================================
-2025-01-06 22:39:00.304 [http-nio-8080-exec-4] INFO  o.start.app.filter.RequestLogFilter - 
-REQUEST LOG ====================================
-URI         : /trade/page
-Method      : POST
-Headers     : host: localhost:8080, connection: keep-alive, content-length: 39, sec-ch-ua-platform: "Windows", user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36, accept: */*, sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24", content-type: application/json, sec-ch-ua-mobile: ?0, origin: http://localhost:8080, sec-fetch-site: same-origin, sec-fetch-mode: cors, sec-fetch-dest: empty, referer: http://localhost:8080/swagger-ui/index.html, accept-encoding: gzip, deflate, br, zstd, accept-language: zh-CN,zh;q=0.9,en;q=0.8
-Parameters  : org.apache.catalina.util.ParameterMap@54906e7b
-Request body: {
-  
-  "pageNum": 1,
-  "pageSize": 10
-}
-Response    : {"total":10000,"records":[{"id":10000,"tradeTime":"2024-02-06T19:22:13.000+00:00","tradeType":"提现","counterparty":"王五","product":"电脑","direction":"收","amount":5353.77,"paymentMethod":"现金","status":"处理中","tradeNo":"T17361718927911509","merchantOrderNo":"M3918490302000706","remarks":"测试数据-10000","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9999,"tradeTime":"2024-02-06T19:20:13.000+00:00","tradeType":"退款","counterparty":"超市","product":"电器","direction":"收","amount":1415.54,"paymentMethod":"银行卡","status":"失败","tradeNo":"T17361718927914042","merchantOrderNo":"M3918490299400665","remarks":"测试数据-9999","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9998,"tradeTime":"2024-02-06T19:13:13.000+00:00","tradeType":"充值","counterparty":"李四","product":"日用品","direction":"收","amount":2092.64,"paymentMethod":"银行卡","status":"成功","tradeNo":"T17361718927913533","merchantOrderNo":"M3918490297000995","remarks":"测试数据-9998","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9997,"tradeTime":"2024-02-06T19:06:13.000+00:00","tradeType":"购物","counterparty":"赵六","product":"服装","direction":"支","amount":6184.27,"paymentMethod":"微信","status":"成功","tradeNo":"T17361718927912721","merchantOrderNo":"M3918490294600450","remarks":"测试数据-9997","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9996,"tradeTime":"2024-02-06T18:57:13.000+00:00","tradeType":"转账","counterparty":"张三","product":"食品","direction":"支","amount":3498.55,"paymentMethod":"现金","status":"失败","tradeNo":"T17361718927910673","merchantOrderNo":"M3918490292200446","remarks":"测试数据-9996","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9995,"tradeTime":"2024-02-06T18:49:13.000+00:00","tradeType":"退款","counterparty":"超市","product":"日用品","direction":"收","amount":389.90,"paymentMethod":"现金","status":"处理中","tradeNo":"T17361718927919660","merchantOrderNo":"M3918490289700427","remarks":"测试数据-9995","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9994,"tradeTime":"2024-02-06T18:44:13.000+00:00","tradeType":"充值","counterparty":"张三","product":"食品","direction":"收","amount":910.58,"paymentMethod":"现金","status":"处理中","tradeNo":"T17361718927914353","merchantOrderNo":"M3918490287300763","remarks":"测试数据-9994","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9993,"tradeTime":"2024-02-06T18:41:13.000+00:00","tradeType":"提现","counterparty":"李四","product":"电脑","direction":"支","amount":1519.57,"paymentMethod":"支付宝","status":"已退款","tradeNo":"T17361718927919376","merchantOrderNo":"M391849028460021","remarks":"测试数据-9993","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9992,"tradeTime":"2024-02-06T18:38:13.000+00:00","tradeType":"充值","counterparty":"李四","product":"服装","direction":"收","amount":6683.50,"paymentMethod":"现金","status":"已退款","tradeNo":"T17361718927913870","merchantOrderNo":"M3918490282200655","remarks":"测试数据-9992","createTime":"2025-01-06T06:01:00.000+00:00"},{"id":9991,"tradeTime":"2024-02-06T18:33:13.000+00:00","tradeType":"充值","counterparty":"李四","product":"食品","direction":"收","amount":3341.41,"paymentMethod":"微信","status":"已退款","tradeNo":"T17361718927918862","merchantOrderNo":"M3918490279900455","remarks":"测试数据-9991","createTime":"2025-01-06T06:01:00.000+00:00"}]}
-Duration    : 163ms
 ===============================================
