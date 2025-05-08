@@ -13,7 +13,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://***:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    url: jdbc:mysql://124.221.19.177:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: my-secret-pw
     druid:
@@ -33,7 +33,7 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   redis:
-    host: ***
+    host: 124.221.19.177
     port: 6379
     database: 0
     timeout: 10000ms
@@ -78,6 +78,12 @@ springdoc:
       - url: /v3/api-docs
         name: API docs
 
+
+# 钉钉机器人配置
+dingtalk:
+  robot:
+    webhook-url: https://oapi.dingtalk.com/robot/send?access_token=66ee36d70ab36d9f124e0329a0987786c16e2fe2618eeaa968f373cf9191c7ab
+    secret: SECa083f7bde05dc44365be2243e21f46808ac2d4ea5f00b7a3dbbd5ed712595a2c
 
 # 日志配置
 logging:
